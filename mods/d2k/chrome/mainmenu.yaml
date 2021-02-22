@@ -177,7 +177,7 @@ Container@MAINMENU:
 					Children:
 						Label@MAP_EDITOR_MENU_TITLE:
 							X: 0
-							Y: 21
+							Y: 20
 							Width: 200
 							Height: 30
 							Text: Map Editor
@@ -190,9 +190,16 @@ Container@MAINMENU:
 							Height: 30
 							Text: New Map
 							Font: Bold
+						Button@MAP_TOOLS_BUTTON:
+							X: PARENT_RIGHT / 2 - WIDTH / 2
+							Y: 100	
+							Width: 140
+							Height: 30
+							Text: Map Tools
+							Font: Bold
 						Button@LOAD_MAP_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
-							Y: 100
+							Y: 140
 							Width: 140
 							Height: 30
 							Text: Load Map
